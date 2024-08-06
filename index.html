@@ -1,31 +1,76 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
 <body>
-    <h1>Jenat's Portfolio</h1>
-    <h2>I'm a web developer</h2>
-    <hr />
-    <h3><a href="public/movie-ranking.html">Movie ranking project</a></h3>
-    <img src="assets/images/movie.PNG" height=200 width=200 alt="Movie ranking">
-    <h3><a href="public/birthday-invite.html">Birthday invite project</a></h3>
-    <img src="assets/images/birthday.PNG" height=300 alt="birthday invite">
-    <hr>
-    <a href="./public/about.html">about me</a>
-    <a href="./public/contact.html">contact me</a>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Welcome to my portfolio! I am passionate about web development and have dedicated myself to learning and creating dynamic, user-friendly web applications. This portfolio showcases a collection of small projects I worked on as part of my journey in mastering web development. Each project reflects my growth and the skills I have acquired along the way.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Movie Ranking Project</h3>
+                <p>A web app displaying my top 3 favorite movies with brief descriptions.</p>
+                <div class="tech-stack">
+                <span class="tech">HTML</span>
+                </div>
+                <a href="./public/movie-ranking.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Birthday Invite Project</h3>
+                <p>A birthday invitation website with interactive details and map.</p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                </div>
+                <a href="./public/birthday-invite.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Motivational Meme</h3>
+                <p>A motivational poster featuring a quote and image.</p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                </div>
+                <a href="./public/Motivation Meme/index.html" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h1>Contact Me</h1>
+                <p><strong>Tel:</strong> +123456789</p>
+                <p> <a href="mailto:jenatanc04@gmail.com">Email me</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jenat Cici Anil. All rights reserved.</p>
+    </footer>
 </body>
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
 </html>
