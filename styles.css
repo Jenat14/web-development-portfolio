@@ -74,6 +74,9 @@ h2 {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -102,6 +105,8 @@ h2 {
   background-color: #1abc9c; 
   border-radius: 5px;
   color: #fff;
+  width:fit-content;
+  align-self: center;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s;
