@@ -1,122 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>My Portfolio</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class="navbar">
+          <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+          </div>
         </nav>
-    </header>
-    
+      </header>
+
     <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <h2>About Me</h2>
-                <p>Welcome to my portfolio! I am passionate about web development and have dedicated myself to learning and creating dynamic, user-friendly web applications. This portfolio showcases a collection of small projects I worked on as part of my journey in mastering web development. Each project reflects my growth and the skills I have acquired along the way.</p>
-            </div>
+      <div class="container">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>
+            Welcome to my portfolio! As a passionate web developer, I've focused
+            on learning and growing through a variety of small projects. Each
+            project has been a stepping stone in building my skills and
+            understanding of web development.
+          </p>
+          <p>
+            This portfolio highlights the practical work I've done to master
+            essential web technologies. From creating responsive layouts to
+            developing interactive features, these projects reflect my
+            commitment to continuous learning and improvement.
+          </p>
+          <p>
+            Explore my work to see how I've developed as a developer. I'm always
+            eager to take on new challenges and expand my knowledge in the
+            exciting field of web development.
+          </p>
+          <a href="#projects" class="cta-button">View Projects</a>
         </div>
+      </div>
     </section>
 
     <section id="projects" class="projects-section">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <h3>Movie Ranking Project</h3>
-                <p>A web app displaying my top 3 favorite movies with brief descriptions.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                </div>
-                <a href="./public/movie-ranking.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Birthday Invite Project</h3>
-                <p>A birthday invitation website with interactive details and map.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                </div>
-                <a href="./public/birthday-invite.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Motivational Meme</h3>
-                <p>A motivational poster featuring a quote and image.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                </div>
-                <a href="./public/Motivation Meme/index.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Web Design Agency</h3>
-                <p>A responsive web interface.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                </div>
-                <a href="./public/Web Design Agency Project/agency.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Pricing Table</h3>
-                <p>A responsive pricing table created to learn Flexbox and media queries.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                </div>
-                <a href="./public/pricing-table.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Mondrian Project</h3>
-                <p>Mondrian-inspired layout project using CSS Grid and its properties.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                </div>
-                <a href="./public/Mondrian-Project.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Bootstrap Project</h3>
-                <p>This project is completely built using different bootstrap components.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">Bootstrap</span>
-                </div>
-                <a href="./public/Bootstrap/bootstrap.html" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>TinDog</h3>
-                <p>A dog dating app that helps dogs meet new dogs nearby.</p>
-                <div class="tech-stack">
-                    <span class="tech">HTML</span>
-                    <span class="tech">CSS</span>
-                    <span class="tech">Bootstrap</span>
-                </div>
-                <a href=" https://jenat14.github.io/TinDog/" target="_blank">View Project</a>
-            </div>
-            <!-- Add more project cards as needed -->
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Movie Ranking Project</h3>
+          <p>
+            A web app displaying my top 3 favorite movies with brief
+            descriptions.
+          </p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+          </div>
+          <a href="./public/movie-ranking.html" target="_blank">View Project</a>
         </div>
+        <div class="project-card">
+          <h3>Birthday Invite Project</h3>
+          <p>A birthday invitation website with interactive details and map.</p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+          </div>
+          <a href="./public/birthday-invite.html" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Motivational Meme</h3>
+          <p>A motivational poster featuring a quote and image.</p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+          </div>
+          <a href="./public/Motivation Meme/index.html" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Web Design Agency</h3>
+          <p>A responsive web interface.</p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+          </div>
+          <a
+            href="./public/Web Design Agency Project/agency.html"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Pricing Table</h3>
+          <p>
+            A responsive pricing table created to learn Flexbox and media
+            queries.
+          </p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+          </div>
+          <a href="./public/pricing-table.html" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Mondrian Project</h3>
+          <p>
+            Mondrian-inspired layout project using CSS Grid and its properties.
+          </p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+          </div>
+          <a href="./public/Mondrian-Project.html" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>Bootstrap Project</h3>
+          <p>
+            This project is completely built using different bootstrap
+            components.
+          </p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">Bootstrap</span>
+          </div>
+          <a href="./public/Bootstrap/bootstrap.html" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>TinDog</h3>
+          <p>A dog dating app that helps dogs meet new dogs nearby.</p>
+          <div class="tech-stack">
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+            <span class="tech">Bootstrap</span>
+          </div>
+          <a href=" https://jenat14.github.io/TinDog/" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
     </section>
 
     <section id="contact" class="contact-section">
         <div class="container">
-            <div class="contact-content">
-                <h1>Contact Me</h1>
-                <p><strong>Tel:</strong> +123456789</p>
-                <p> <a href="mailto:jenatanc04@gmail.com">Email me</a></p>
+          <div class="contact-content">
+            <h1>Contact Me</h1>
+            <p>If you’d like to get in touch, feel free to reach out!</p>
+            <div class="contact-details">
+              <p><strong>Phone:</strong> <a href="tel:+123456789" class="contact-link">+123456789</a></p>
+              <p><strong>Email:</strong> <a href="mailto:jenatanc04@gmail.com" class="contact-link">jenatanc04@gmail.com</a></p>
             </div>
+          </div>
         </div>
-    </section>
-
+      </section>
+      
     <footer>
-        <p>&copy; 2024 Jenat Cici Anil. All rights reserved.</p>
+      <p>&copy; 2024 Jenat Cici Anil. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
